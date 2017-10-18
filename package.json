@@ -1,0 +1,43 @@
+{
+  "name": "luxd-rpc",
+  "description": "Luxcoin Client Library to connect to Luxcoin Core via RPC",
+  "version": "0.7.1",
+  "author": {
+    "name": "Stephen Pair",
+    "email": "stephen@bitpay.com"
+  },
+  "contributors": [
+    {
+      "name": "216k155",
+      "email": "216k155@i2pd.net"
+    }
+  ],
+  "keywords": [
+    "lux",
+    "rpc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/216k155/luxd-rpc"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test -R spec",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "async": "^1.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/216k155/luxd-rpc/issues"
+  },
+  "homepage": "https://github.com/216k155/luxd-rpc"
+}
